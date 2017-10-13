@@ -53,6 +53,3 @@ class BankAccount
       Array.new(10).map { rand(1..9) }.join
     end
 end
-
-guest1 = BankAccount.new
-guest1.deposit(9634347913, 200)
